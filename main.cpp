@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	int r0 = 0;
-	int r1, r2, r3;
-	cin >> r1 >> r2 >> r3;
-	r0 == 1 / r1 + 1 / r2 + 1 / r3;
-	cout << 1 / r0 << endl;
+	int len;
+	cout << "Enter the length of the circle: ";
+	cin >> len;
+	cout << "The area of the circle is: " << 3.14 * len * len << endl;
+	cout << "The circumference of the circle is: " << 2 * 3.14 * len << endl;
 	return 0;
 }
